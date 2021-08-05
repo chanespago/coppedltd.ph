@@ -587,7 +587,7 @@ img {
         position: relative;
     }
     .home__title {
-        font-size: var(--normal-font-size);
+        font-size: var(--big-font-size);
     }
 
 }
