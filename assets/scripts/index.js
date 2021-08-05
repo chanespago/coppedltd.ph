@@ -1,67 +1,20 @@
-const showMenu = (toggleId, navId) => {
-    const toggle = document.getElementById(toggleId),
-        nav = document.getElementById(navId)
+const showIndexMenu = (toggleId, navId) => {
+    const toggleIndex = document.getElementById(toggleId),
+        navIndex = document.getElementById(navId)
 
     if (toggleId && navId) {
-        toggle.addEventListener('click', () => { 
-            nav.classList.toggle('show')
+      toggleIndex.addEventListener('click', () => { 
+        navIndex.classList.toggle('show')
         })
     }
 }
 
-showMenu('nav-toggle', 'nav-menu')
+showIndexMenu('index-nav-toggle', 'index-nav-menu');
 
-const navLink = document.querySelectorAll('.nav__link'),
-    navMenu = document.getElementById('nav-menu')
+const navIndexLink = document.querySelectorAll('.nav__link'),
+  navIndexMenu = document.getElementById('index-nav-menu')
 
 function linkAction() {
-    navMenu.classList.remove('show')
+  navIndexMenu.classList.remove('show');
 }
-navLink.forEach(n => n.addEventListener('click', linkAction))
-
-const sections = document.querySelectorAll('section[id]')
-
-window.addEventListener('scroll', scrollActive)
-
-function scrollActive() {
-    const scrollY = window.pageYOffset
-
-    sections.forEach(current => {
-        const sectionHeight = current.offsetHeight
-        const sectionTop = current.offsetTop - 50
-        sectionId = current.getAttribute('id')
-
-        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active')
-        } else {
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active')
-        }
-    })
-}
-
-// Toggle Navigation Bar on scroll
-window.onscroll = () => {
-    const nav = document.getElementById('header')
-    if (this.scrollY >= 200) nav.classList.add('scroll-header'); else nav.classList.remove('scroll-header')
-}
-
-// Loader
-window.onload = () => {
-    const load = document.getElementById('loader-wrapper');
-    const indexContent = document.getElementById('index-content');
-
-    setTimeout(function() {
-        load.style.display = "none";
-        indexContent.style.display = "block";
-      }, 2000);
-
-}
-
-function openTab(tabName) {
-    var i;
-    var x = document.getElementsByClassName("tab__nav");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";  
-    }
-    document.getElementById(tabName).style.display = "block";  
-  }
+navIndexLink.forEach(n => n.addEventListener('click', linkAction));

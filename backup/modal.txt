@@ -1,0 +1,122 @@
+<div id="cart-content" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>YOUR BAG</h2>
+            </div>
+
+            <div class="modal-body">
+                <!-- Summary -->
+                <section class="cart" id="cart">
+                    <section class="cart__container">
+                        <div class="row">
+                            <span>TOTAL [ 3 ITEMS ] $999.99</span>
+                        </div>
+                        <div class="row">
+                            <div class="column col-3-5">
+
+                                <!-- ITEMS ADDED -->
+                                <div class="cart__box">
+                                    <span class="txt-dark remove">&times;</span>
+                                    <div class="cart__item">
+                                        <div class="cart__img">
+                                            <img src="assets/img/shoes/adidas_by_Stella_McCartney_Ultraboost_21_Shoes_White_H00099_01_standard.png" alt="" />
+                                        </div>
+                                        <div class="cart__details">
+                                            <span class="txt-dark">Stella McCartney Ultraboost 21</span>
+                                            <span class="txt-dark" >SIZE : 8</span>
+                                            <br/>
+                                            <span class="txt-dark">$241.87</span>
+                                            <span class="txt-dark">QTY : 1</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cart__box">
+                                    <span class="txt-dark remove">&times;</span>
+                                    <div class="cart__item">
+                                        <div class="cart__img">
+                                            <img src="assets/img/shoes/air-jordan-1-low-travis-scott-x-fragment-release-date.png" alt="" />
+                                        </div>
+                                        <div class="cart__details">
+                                            <span class="txt-dark">Air Jordan 1 Travis Scott x Fragment</span>
+                                            <span class="txt-dark" >SIZE : 8</span>
+                                            <br/>
+                                            <span class="txt-dark">$163.16</span>
+                                            <span class="txt-dark">QTY : 1</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cart__box">
+                                    <span class="txt-dark remove">&times;</span>
+                                    <div class="cart__item">
+                                        <div class="cart__img">
+                                            <img src="assets/img/shoes/space-hippie-01-–-carbon-green-this-is-trash-release-date.png" alt="" />
+                                        </div>
+                                        <div class="cart__details">
+                                            <span class="txt-dark">Space Hippie 01 Carbon Green</span>
+                                            <span class="txt-dark" >SIZE : 8</span>
+                                            <br/>
+                                            <span class="txt-dark">$138.97</span>
+                                            <span class="txt-dark">QTY : 1</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="column col-2-5">
+                                
+                                <!-- ORDER SUMMARY -->
+                                <div class="order__summary">
+                                    <div class="order__box">
+                                        <span class="txt-dark summary__title">ORDER SUMMARY</span>
+                                        <table class="tbl__order">
+                                            <tr>
+                                                <td class="order__info">3 ITEMS</td>
+                                                <td class="order__value">$999.99</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="order__info">DELIVERY</td>
+                                                <td class="order__value">FREE</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="order__info">TOTAL</td>
+                                                <td class="order__value">$999.99</td>
+                                            </tr>
+
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <!-- CHECKOUT INFORMATION -->
+                                <div class="checkout">
+                                    <span class="txt-dark checkout__title">SHIPPING ADDRESS</span>
+                                    <div class="checkout__container">
+                                        <input type="text" class="checkout__info" placeholder="First Name"/>
+                                        <input type="text" class="checkout__info" placeholder="Last Name"/>
+                                        <input type="text" class="checkout__info" placeholder="Address Number and Street"/>
+                                        <input type="text" class="checkout__info" placeholder="Additional Address Information"/>
+                                        <input type="text" class="checkout__info" placeholder="City"/>
+                                        <input type="text" class="checkout__info" placeholder="Postal Code"/>
+                                        <input type="text" class="checkout__info" placeholder="Email Address"/>
+                                        <input type="text" class="checkout__info" placeholder="Phone Number"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section> 
+                    
+                </section>
+                
+            </div>
+
+            <div class="modal-footer">
+                <h3><span class="nav__logo txt-yellow">COPPED<span class="logo_fx">LTD.</span></span></h3>
+            </div>
+        </div>
+      
+    </div>
