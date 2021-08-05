@@ -57,6 +57,7 @@ body {
     font-weight: var(--font-medium);
     color: var(--dark-color);
     background-color: #F5F5F5; 
+    overflow-x: hidden;
     /* background-size: 400% 400%; */
     /* background-image: linear-gradient(120deg, #000000 0%, #273A4D 74%); */
     /* animation: change 5s ease-in-out infinite; */
@@ -598,6 +599,9 @@ img {
         display: inline-block;
         width: 80px;
         position: relative;
+    }
+    .home__title {
+        font-size: var(--bigger-font-size);
     }
 
 }
