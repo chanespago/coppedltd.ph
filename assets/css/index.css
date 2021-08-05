@@ -386,6 +386,7 @@ img {
     border: none;
     border-radius: 4px;
     margin: 0 var(--mb-1);
+    background-color: #fff;
 }
 
 .collection__container {
