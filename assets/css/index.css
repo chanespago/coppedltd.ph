@@ -58,22 +58,8 @@ body {
     color: var(--dark-color);
     background-color: #F5F5F5; 
     overflow-x: hidden;
-    /* background-size: 400% 400%; */
-    /* background-image: linear-gradient(120deg, #000000 0%, #273A4D 74%); */
-    /* animation: change 5s ease-in-out infinite; */
 }
 
-/* @keyframes change {
-    0% {
-        background-position: 0 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0 50%;
-    }
-} */
 
 h1,h2,h3,p,ul {
     margin: 0;
@@ -601,7 +587,7 @@ img {
         position: relative;
     }
     .home__title {
-        font-size: var(--bigger-font-size);
+        font-size: var(--normal-font-size);
     }
 
 }
