@@ -91,7 +91,10 @@ img {
     z-index: 999;
     display: block;
 }
-#body-content {
+#index-content {
+    display: none;
+}
+#shop-content {
     display: none;
 }
 
