@@ -45,6 +45,7 @@ window.onload = () => {
       indexContent.style.display = "block";
     }, 2000);
 
+    toggleBag();
 }
 
 // Toggle between Navs
