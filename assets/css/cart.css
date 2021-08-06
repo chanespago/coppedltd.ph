@@ -248,6 +248,7 @@
 #empty__bag
 {
   display: none;
+  padding: 10px 0px;
 }
 
 #occupied__bag,
